@@ -19,8 +19,8 @@ Key bindings are expressed as follows:
 
 ---
 ### :left_right_arrow: BASIC CURSER CONTROL
-|Keystrokes   			|Action                             			|
-| -           			| -                                   			|
+|Keystrokes   			|Action          								|
+| --------------------- | --------------------------------------------- |
 | <kbd>C-f</kbd>       	| Move forward a character          			|
 | <kbd>C-b</kbd>       	| Move backward a character         			|
 | <kbd>M-f</kbd> 		| Move forward a word                          	|
@@ -37,7 +37,7 @@ Key bindings are expressed as follows:
 ---
 ### :heavy_check_mark: SELECT AND MARK
 |Keystrokes 			|Action                   			|
-| -         			| -                       			|
+| --------------------- | --------------------------------- |
 | <kbd>C-SPC</kbd>  	| Select by line         			|
 | <kbd>C-x SPC</kbd>  	| Select by column            		|
 | <kbd>C-x C-x</kbd> 	| Go to other end of marked region 	|
@@ -48,7 +48,7 @@ Key bindings are expressed as follows:
 ---
 ### :x: INSERTING AND DELETING
 |Keystrokes     		|Action                                         |
-| -             		| -                                             |
+| --------------------- | --------------------------------------------- |
 | <kbd>C-d</kbd>        | Delete one char forward  						|
 | <kbd>M-d</kbd>        | Cut one word forward  						|
 | <kbd>M-DEL</kbd>   	| Cut one word backward							|
@@ -64,14 +64,14 @@ Key bindings are expressed as follows:
 ---
 ### :rewind: UNDO
 |Keystrokes 		|Action	|
-| -         		| -     |
+| ----------------- | ----- |
 | <kbd>C-/</kbd>    | Undo  |
 | <kbd>C-x u</kbd> 	| Undo 	|
 
 ---
 ### :open_file_folder: FILES
 |Keystrokes 			|Action                 |
-| -         			| -                     |
+| --------------------- | --------------------- |
 | <kbd>C-x C-f</kbd> 	| Open file             |
 | <kbd>C-x C-s</kbd> 	| Save file             |
 | <kbd>C-x C-w</kbd> 	| Save to file named as	|
@@ -79,7 +79,7 @@ Key bindings are expressed as follows:
 ---
 ### :page_facing_up: BUFFERS
 |Keystrokes 			|Action                 |
-| -         			| -                     |
+| --------------------- | --------------------- |
 | <kbd>C-x C-b</kbd> 	| List buffers        	|
 | <kbd>C-x s</kbd>   	| Save some buffers   	|
 | <kbd>C-x b</kbd>   	| Switch to a buffer  	|
@@ -87,15 +87,15 @@ Key bindings are expressed as follows:
 
 ---
 ### :eyeglasses: SEARCHING
-|Keystrokes	|Action            	|
-| -         | -                 |
-| <kbd>C-s</kbd>     | Search forward 	|
-| <kbd>C-r</kbd>     | Search backward	|
+|Keystrokes			|Action            	|
+| ----------------- | ----------------- |
+| <kbd>C-s</kbd>    | Search forward 	|
+| <kbd>C-r</kbd>    | Search backward	|
 
 ---
 ### :repeat: REPEATING
 |Keystrokes 			|Action          	|
-| -         			| -                 |
+| --------------------- | ----------------- |
 | <kbd>M-n</kbd> 		| Repeat n times	|
 | <kbd>C-u</kbd> 		| Repeat 4 times 	|
 | <kbd>C-u C-u</kbd> 	| Repeat 16 times	|
@@ -103,7 +103,7 @@ Key bindings are expressed as follows:
 ---
 ### :black_square_button: MANAGING WINDOWS
 |Keystrokes     		|Action                            	|
-| -             		| -                                	|
+| --------------------- | ---------------------------------	|
 | <kbd>C-x 1</kbd>      | kill all but the current window	|
 | <kbd>C-x 2</kbd>      | Split windows horizontally  		|
 | <kbd>C-x 3</kbd>      | Split windows vertically          |
@@ -117,7 +117,7 @@ Key bindings are expressed as follows:
 ---
 ### :white_check_mark: SPELL CHECKING
 |Keystrokes        							|Action                         |
-| -             							| -                             |
+| ----------------------------------------- | ----------------------------- |
 | <kbd>M-$</kbd> 							| ispell check a single word	|
 | <kbd>M-x ispell-region</kbd> 				| check selected region			|
 | <kbd>M-x ispell_buffer</kbd> 				| check current buffer 			|
@@ -128,7 +128,7 @@ Key bindings are expressed as follows:
 
 ### SHELL
 |Keystrokes     		|Action                                						|
-| -             		| -                                         				|
+| --------------------- | --------------------------------------------------------- |
 | <kbd>M-!</kbd> 		| Execute shell command 									|
 | <kbd>C-u M-!</kbd> 	| Execute shell command and put output in current buffer 	|
 | <kbd>M-x shell</kbd>	| Shell mode 												|
@@ -136,7 +136,7 @@ Key bindings are expressed as follows:
 ---
 ### :hash: SHELL MODE
 |Keystrokes			 | Action              			|
-| -        			 | -                   			|
+| ------------------ | ---------------------------- |
 | <kbd>C-c C-z</kbd> | Equal <kbd>C-z</kbd> command |
 | <kbd>C-c C-d</kbd> | Equal <kbd>C-d</kbd> command |
 | <kbd>C-c C-c</kbd> | Equal <kbd>C-c</kbd> command |
@@ -144,7 +144,7 @@ Key bindings are expressed as follows:
 ---
 ### :information_source: GETTING HELP
 |Keystrokes 		|Action                   |
-| -         		| -                       |
+| ----------------- | ----------------------- |
 | <kbd>C-h ?</kbd>  | Help suggestions        |
 | <kbd>C-h c</kbd>  | Basic help              |
 | <kbd>C-h f</kbd>  | Describe a function     |
@@ -153,4 +153,3 @@ Key bindings are expressed as follows:
 | <kbd>C-h i</kbd>  | Read included manuals   |
 | <kbd>C-h r</kbd>  | The emacs editor help   |
 | <kbd>q</kbd>      | Close Help buffer		  |
-
